@@ -1,12 +1,11 @@
-import React from "react";
-import "./App.css";
+import Users from "./components/Users";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>Class Based Components</h1>
-    </>
+    <div>
+      <Users />
+    </div>
   );
-}
+};
 
 export default App;

@@ -1,8 +1,9 @@
 import { Component } from "react";
-
-export class User extends Component {
-  //render means return in jsx functional component
+import classes from "./User.module.css";
+class User extends Component {
   render() {
-    return <li>{this.props.name}</li>;
+    return <li className={classes.user}>{this.props.name}</li>;
   }
 }
+
+export default User;
